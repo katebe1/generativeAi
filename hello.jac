@@ -1,3 +1,7 @@
+def lovejac() ->str{
+    return ("I love Jac");
+}
+
 with entry{
-    print("Hello, world");
+    print(f"{lovejac()}");
 }
